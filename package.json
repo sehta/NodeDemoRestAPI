@@ -1,0 +1,26 @@
+{
+  "name": "nodemongoapp",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "~1.13.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "~1.3.5",
+    "cookie-session": "^1.2.0",
+    "debug": "~2.2.0",
+    "express": "~4.13.1",
+    "express-ejs-layouts": "^2.1.0",
+    "express-session": "^1.13.0",
+    "jade": "~1.11.0",
+    "method-override": "^2.3.6",
+    "morgan": "~1.6.1",
+    "nodemon": "^1.9.2",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "serve-favicon": "~2.3.0"
+  }
+}
